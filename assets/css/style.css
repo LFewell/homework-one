@@ -1,13 +1,16 @@
+/*--Universal selector--*/
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/*--Body--*/
 body {
     background-color: #d9dcd6;
 }
 
+/*--Formatting for the header and nav bar--*/
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -20,6 +23,7 @@ header h1 {
     font-size: 48px;
 }
 
+/*--Coloring for SEO--*/
 header h1 .seo {
     color: #d9dcd6;
 }
@@ -43,10 +47,12 @@ a {
     text-decoration: none;
 }
 
+/*--Paragraph Formatting--*/
 p {
     font-size: 16px;
 }
 
+/*--Landing page main image--*/
 .hero {
     height: 800px;
     width: 100%;
@@ -56,6 +62,7 @@ p {
     background-position: center;
 }
 
+/*--Positioning for article images--*/
 .float-left {
     float: left;
     margin-right: 25px;
@@ -71,7 +78,7 @@ p {
     display: inline-block;
     margin-left: 20px;
 }
-
+/*--Formatting for the aside side bar--*/
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -99,6 +106,7 @@ aside img {
     max-width: 150px;
 }
 
+/*--Formatting for the article section--*/
 .article-format {
     margin-bottom: 20px;
     padding: 50px;
@@ -117,6 +125,7 @@ aside img {
     font-size: 36px;
 }
 
+/*--Formatting for the footer--*/
 footer {
     padding: 30px;
     clear: both;
